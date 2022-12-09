@@ -1,0 +1,27 @@
+
+
+<h2 class="text-center">Employee list</h2>
+<table class="table table-striped"> <!--These class value is bootstrap predefined value-->
+    <thead>
+        <tr>
+            <th>firstname</th>
+            <th>lastname</th>
+            <th>email</th>
+        </tr>
+    </thead>
+    <tbody >
+        <tr *ngFor="let employee of employees">
+            <td>{{employee.firstname}}</td>
+            <td>{{employee.lastname}}</td>
+            <td>{{employee.email}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<!--<button (click)="trye()">clickme
+    <h1 *ngFor="let employee of employees">
+        <h2>{{employee.firstname}}</h2>
+            <h2>{{employee.lastname}}</h2>
+            <h2>{{employee.email}}</h2>
+    </h1>
+</button>-->

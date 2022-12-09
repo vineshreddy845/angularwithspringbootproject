@@ -1,0 +1,4 @@
+for generate new component we use: "ng g c name" // ng generate component name
+for generate new class:" ng g class name"
+for install bootstrap in angluar. we use "npm install bootstrap --save".
+ for compiliation we use "ng serve" 

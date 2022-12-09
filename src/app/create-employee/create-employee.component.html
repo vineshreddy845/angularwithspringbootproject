@@ -1,0 +1,29 @@
+<p>create-employee works!</p>
+
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label>firstname</label>
+        <input type="text" class="form-control"  id="firstname" [(ngModel)]= "employee.firstname" name="firstname">
+        <p>{{employee.firstname}}</p>
+    </div>
+    <div class="form-group">
+        <label>lastname</label>
+        <input type="text" class="form-control"  id="lastname" [(ngModel)]= "employee.lastname" name="firstname">
+        <p>{{employee.lastname}}</p>
+    </div>
+    <div class="form-group">
+        <label>email</label>
+        <input type="text" class="form-control"  id="email" [(ngModel)]= "employee.email" name="firstname">
+        <p>{{employee.email}}</p>
+    </div>
+    <button type="submit " class="btn btn-success">submit</button>
+</form>
+
+<!--<form (ngSubmit)="onSubmit1()">
+    <div class="form-group">
+        <label>firstname</label>
+        <input type="text" class="form-control"  id="id" [(ngModel)]= "employee.id" name="id">
+        <p>{{employee.id}}</p>
+        </div>
+        <button type="submit " class="btn btn-success">submit</button>
+    </form>-->     

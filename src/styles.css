@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+/*@import "~bootstrap/dist/css/bootstrap.min.css" */
+/* here these first way to install bootstrap in angular. There are three ways but i prefer these way.*/
+/* i used second way using command "npm install bootstrap --save". and then above second line commented code add in angular.json. in style */
+
+footer{
+    box-shadow: inset;
+    text-align: center;
+    color: brown;
+}
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  
+  .navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+  }

@@ -1,0 +1,40 @@
+<p>update works!</p>
+
+
+<!--its is not working below code.why have to search-->
+<!--<form (ngSubmit)="onSubmit()">
+    <input text="text" placeholder="firstname" [(ngModel)]="employee.firstname" name="firstname">
+    <p>{{employee.firstname}}</p>
+    <input text="text" placeholder="lastname" [(ngModel)]="employee.lastname" name="lastname">
+    <p>{{employee.lastname}}</p>
+    <input text="text" placeholder="email" [(ngModel)]="employee.email" name="email">
+    <p>{{employee.email}}</p>
+
+    <button type="button">update</button>
+    
+    
+</form>-->
+
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label>firstname</label>
+        <input type="text" class="form-control"  id="firstname" [(ngModel)]= "employee.firstname" name="firstname">
+        <p>{{employee.firstname}}</p>
+    </div>
+    <div class="form-group">
+        <label>lastname</label>
+        <input type="text" class="form-control"  id="lastname" [(ngModel)]= "employee.lastname" name="firstname">
+        <p>{{employee.lastname}}</p>
+    </div>
+    <div class="form-group">
+        <label>email</label>
+        <input type="text" class="form-control"  id="email" [(ngModel)]= "employee.email" name="firstname">
+        <p>{{employee.email}}</p>
+    </div>
+    <div class="form-group">
+        <label>id</label>
+        <input type="text" class="form-control"  id="id" [(ngModel)]= "id" name="id">
+        <p>{{id}}</p>
+    </div>
+    <button type="submit " class="btn btn-success">submit</button>
+</form>
